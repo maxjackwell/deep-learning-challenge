@@ -14,6 +14,7 @@ Compiling, Training, and Evaluating the Model
 AlphabetSoupCharity1:
 
 Model Architecture:
+File: Deep_Learning_Challenge1
 Layers: 3
 Neurons:
 First layer: 8 units, activation: ReLU, input_dim: 43
@@ -28,6 +29,7 @@ The choice of 8 units in the first layer was based on initial experimentation. R
 AlphabetSoupCharity2:
 
 Model Architecture:
+File: Deep_Learning_Challenge2
 Layers: Variable
 Neurons:
 First layer: 1-10 units, activation: ReLU or Tanh (decided by Keras Tuner)
@@ -42,6 +44,7 @@ Keras Tuner was used to optimize the model by selecting the best activation func
 AlphabetSoupCharity3:
 
 Model Architecture:
+File: Deep_Learning_Challenge2
 Layers: Variable
 Neurons:
 First layer: 1-8 units, activation: ReLU or Tanh (decided by Keras Tuner)
